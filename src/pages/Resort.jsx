@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
 import club4 from "../assets/club4.jpg";
 import lounge1 from "../assets/lounge.jpg";
 import casaclub from "../assets/casaclub.jpg";
@@ -23,6 +24,7 @@ export default function Resort() {
         desc: "Sophisticated seating, signature drinks and a calm atmosphere for guests who want premium comfort.",
         image: lounge1,
       },
+
     ],
     []
   );

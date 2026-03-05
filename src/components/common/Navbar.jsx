@@ -15,7 +15,6 @@ const navItems = [
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
-  // Lock body scroll when mobile menu is open
   useEffect(() => {
     if (!open) return;
     const original = document.body.style.overflow;
@@ -98,3 +97,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+

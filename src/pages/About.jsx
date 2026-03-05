@@ -1,6 +1,6 @@
 import React from "react";
 import heroImg from "../assets/frontdesksideview.jpg";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 
 export default function About() {
   return (

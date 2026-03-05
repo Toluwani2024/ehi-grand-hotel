@@ -62,7 +62,7 @@ const galleryImages = [
 ];
 
 export default function Gallery() {
-  const [selected, setSelected] = useState(null); // { src, label } | null
+  const [selected, setSelected] = useState(null); 
 
   return (
     <>
